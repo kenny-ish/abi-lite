@@ -1,0 +1,16 @@
+{
+  "name": "abi-lite",
+  "version": "0.1.0",
+  "description": "Minimal Solidity ABI encoder/decoder",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test \"src/**/*.test.ts\""
+  },
+  "engines": { "node": ">=22.18" },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^7.0.2"
+  }
+}
